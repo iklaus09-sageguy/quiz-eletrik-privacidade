@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacidade do Quiz EletriK</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: documento de uma coluna, leitura confortável; faixa azul-noite no topo com as cores do EletriK */
+:root{
+  --bg:#f4f6fb; --surface:#ffffff; --ink:#0d1530; --muted:#59627d; --line:#dde2ee;
+  --night:#091633; --orange:#ff6810; --link:#0826d5;
+  --body:"Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#081333;--surface:#0f1d48;--ink:#eef2ff;--muted:#9ba7c8;--line:#22346c;--night:#050c22;--orange:#ff6810;--link:#93a4ff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#081333;--surface:#0f1d48;--ink:#eef2ff;--muted:#9ba7c8;--line:#22346c;--night:#050c22;--orange:#ff6810;--link:#93a4ff;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6}
+.top{background:var(--night);color:#fff;margin-top:calc(-1 * env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + 32px);padding-bottom:28px}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top p{margin:0;color:#aeb9d6;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700}
+.top h1{margin:6px 0 0;font-size:clamp(26px,6vw,36px);line-height:1.15;text-wrap:balance}
+.top h1 b{color:var(--orange)}
+main{padding-block:24px 48px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:16px}
+h2{margin:0 0 8px;font-size:20px;text-wrap:balance}
+p,li{max-width:65ch}
+ul,ol{padding-left:22px;margin:8px 0}
+li{margin:4px 0}
+a{color:var(--link);font-weight:600}
+.muted{color:var(--muted);font-size:14px}
+#excluir-conta{border:2px solid var(--orange)}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><p>Quiz EletriK</p><h1>Política de Privacidade e <b>exclusão de conta</b></h1></div></header>
+<main class="wrap">
+  <p class="muted">Última atualização: 23 de novembro de 2026.</p>
+
+  <section>
+    <h2>Quem somos</h2>
+    <p>O Quiz EletriK é um jogo de perguntas sobre elétrica para Android, mantido pela EletriK. Contato: <a href="mailto:iklaus09@gmail.com">iklaus09@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Quais dados usamos</h2>
+    <ul>
+      <li><b>Se você jogar sem conta:</b> não coletamos nada. O apelido, a sua área de atuação (opcional), os acertos e o recorde ficam guardados só no seu celular.</li>
+      <li><b>Se você entrar com a conta Google:</b> recebemos o seu nome, o seu e-mail e um identificador da conta, fornecidos pelo Google. Eles são guardados no Firebase Authentication, um serviço do Google, para manter o seu cadastro.</li>
+    </ul>
+    <p>Não usamos anúncios, não vendemos dados e não compartilhamos dados com terceiros, além do próprio Google (Firebase), que processa o login.</p>
+  </section>
+
+  <section>
+    <h2>Para que usamos</h2>
+    <ul>
+      <li>Criar e manter o seu cadastro no jogo.</li>
+      <li>Entrar em contato sobre o app ou sobre a EletriK, se você tiver informado o e-mail. Você pode pedir para não receber mensagens a qualquer momento.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Desafios entre amigos</h2>
+    <p>A mensagem de desafio contém o seu apelido, a pontuação e um código. Ela só é enviada quando você toca em "Enviar", pelo aplicativo de mensagens que você escolher.</p>
+  </section>
+
+  <section>
+    <h2>Segurança e prazo de guarda</h2>
+    <p>Os dados de login trafegam criptografados e ficam guardados enquanto a sua conta existir. Ao excluir a conta, eles são apagados em até 30 dias.</p>
+  </section>
+
+  <section id="excluir-conta">
+    <h2>Como excluir a sua conta e os seus dados</h2>
+    <ol>
+      <li><b>Pelo app:</b> toque no seu nome no canto de cima, desça até <b>"Excluir minha conta"</b> e confirme. A conta e os dados são apagados na hora.</li>
+      <li><b>Por e-mail:</b> se você não tiver mais o app, mande um e-mail para <a href="mailto:iklaus09@gmail.com?subject=Excluir%20conta%20Quiz%20EletriK">iklaus09@gmail.com</a> com o assunto <b>"Excluir conta Quiz EletriK"</b>, a partir do e-mail cadastrado. Apagamos o cadastro em até 30 dias e avisamos você.</li>
+    </ol>
+    <p>São apagados o nome, o e-mail e o identificador da conta. O progresso do jogo fica só no celular e some ao desinstalar o app.</p>
+  </section>
+
+  <section>
+    <h2>Crianças</h2>
+    <p>O app é destinado a maiores de 18 anos e não coleta dados de crianças de propósito.</p>
+  </section>
+
+  <section>
+    <h2>Seus direitos (LGPD)</h2>
+    <p>Você pode pedir acesso, correção ou exclusão dos seus dados pelo e-mail <a href="mailto:iklaus09@gmail.com">iklaus09@gmail.com</a>. Esta política pode mudar. A data no topo sempre mostra a versão em vigor.</p>
+  </section>
+</main>
+</body>
+</html>
